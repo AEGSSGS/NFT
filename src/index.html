@@ -1,0 +1,846 @@
+<!doctype html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+                integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+        <Header class="header py-[25px]">
+                <div class="container flex items-center justify-between">
+                        <a href="" class="text-[24px] font-semibold leading-normal text-black inline-block">
+                                Rolling
+                        </a>
+                        <form action="">
+                                <label for="search">
+                                        <input type="search" placeholder="Search Rolling"
+                                                class="w-[471px] border border-gray-200 py-4 px-6 rounded-[60px] shadow-search_shadow">
+                                </label>
+                        </form>
+                        <nav class="navbar">
+                                <ul class="flex items-center gap-[32px]">
+                                        <li><a href=""
+                                                        class="nav_link text-black font-medium leading-normal text-[16px]">Explore</a>
+                                        </li>
+                                        <li><a href=""
+                                                        class="nav_link text-black font-medium leading-normal text-[16px]">Activity</a>
+                                        </li>
+                                        <li><a href=""
+                                                        class="nav_link text-black font-medium leading-normal text-[16px]">Feed</a>
+                                        </li>
+                                        <li><a href=""
+                                                        class="nav_link text-black font-medium leading-normal text-[16px]">Bids</a>
+                                        </li>
+                                </ul>
+                        </nav>
+                        <button class="bg-white text-black border border-gray-200 px-[10px] py-[5px] rounded-[50%]">
+                                <i class="fa-solid fa-bolt"></i>
+                        </button>
+                        <a href=""
+                                class="rounded-[33px] border border-blue-200 bg-blue-200 py-4 px-4 text-[#007AFF] text-[16px] font-medium leading-normal">
+                                Connect Wallet
+                        </a>
+                </div>
+        </Header>
+        <section class="hero-section pb-[90px]">
+                <div class="container ">
+                        <div class="flex justify-between gap-[23px]">
+                                <img src="./img/img1.png" alt="" class="max-w-[849px]">
+
+                                <a href="" id="card"
+                                        class="inline-block px-9 pt-12 pb-9 max-w-[452px] shadow-3xl  rounded-[12px]">
+                                        <h3 class="card_title mb-3 text-black text-[28px] font-medium leading-[36px]">
+                                                The circle's pristine cleanliness
+                                        </h3>
+                                        <div class="flex items-center gap-2 mb-[49px]">
+                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                <p class="text-[16px] font-normal leading-4 text-black">Tung Tran</p>
+
+                                        </div>
+                                        <div class="info flex items-center gap-[24px] mb-[72px]">
+                                                <div class="border-r border-r-black pr-6">
+                                                        <p class="text-[16px] font-normal leading-6 text-black mb-3">
+                                                                Current Bid
+                                                        </p>
+                                                        <strong
+                                                                class="block mb-2 text-[24px] font-medium  leading-6 text-black">
+                                                                0.85 ETH
+                                                        </strong>
+                                                        <strong class="block text-[#8E8E93]">
+                                                                $2,169.42
+                                                        </strong>
+                                                </div>
+                                                <div class="">
+                                                        <p class="text-[16px] font-normal leading-6 text-black mb-3">
+                                                                Auction ends in
+                                                        </p>
+                                                        <div class="flex items-center gap-[20px]">
+                                                                <div class="">
+                                                                        <strong
+                                                                                class="block mb-2 text-[24px] font-medium  leading-6 text-black">
+                                                                                3
+                                                                        </strong>
+                                                                        <strong class="block text-[#8E8E93]">
+                                                                                Hours
+                                                                        </strong>
+                                                                </div>
+                                                                <div class="">
+                                                                        <strong
+                                                                                class="block mb-2 text-[24px] font-medium  leading-6 text-black">
+                                                                                16
+                                                                        </strong>
+                                                                        <strong class="block text-[#8E8E93]">
+                                                                                Minutes
+                                                                        </strong>
+                                                                </div>
+                                                                <div class="">
+                                                                        <strong
+                                                                                class="block mb-2 text-[24px] font-medium  leading-6 text-black">
+                                                                                58
+                                                                        </strong>
+                                                                        <strong class="block text-[#8E8E93]">
+                                                                                Seconds
+                                                                        </strong>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="text-center">
+                                                <button
+                                                        class="py-5 bg-[#007AFF] w-[360px] rounded-[45px] mb-5 text-white">Place
+                                                        a
+                                                        bid</button>
+                                                <button>View artwork</button>
+                                        </div>
+                                </a>
+                        </div>
+                </div>
+        </section>
+        <section class="auction mb-[90px]">
+                <div class="container">
+                        <div class="flex items-center justify-between mb-9">
+                                <h2 class="text-[28px] font-medium leading-[36px]">Live auctions 🔥 </h2>
+                                <p class="text-[20px] font-normal leading-[28px] text-[#8E8E93]">View all auctions</p>
+                        </div>
+                        <div class="grid grid-cols-4 gap-[32px] mb-[90px]">
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/card_img.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        3D Soft Curves
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Esther Howard
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.85 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/card_img2.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        The mystery of the black square
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Jenny Wilson
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.24 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/card_img3.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        Pink Cloud
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Floyd Miles
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.3 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/card_img4.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        3D Ethereum
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Jane Cooper
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.12 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                        </div>
+
+                        <div class="flex items-center justify-between mb-9">
+                                <h2 class="text-[28px] font-medium leading-[36px]">Featured ✨ </h2>
+                                <p class="text-[20px] font-normal leading-[28px] text-[#8E8E93]">View all</p>
+                        </div>
+                        <div class="grid grid-cols-4 gap-[32px] mb-9">
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/part1.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        3D Soft Curves
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Esther Howard
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.85 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/part2.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        The mystery of the black square
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Jenny Wilson
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.24 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/part3.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        Pink Cloud
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Floyd Miles
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.3 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/part4.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        3D Ethereum
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Jane Cooper
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.12 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                        </div>
+                        <div class="grid grid-cols-4 gap-[32px] mb-9">
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/part5.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        3D Soft Curves
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Esther Howard
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.85 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/part6.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        The mystery of the black square
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Jenny Wilson
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.24 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/part7.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        Pink Cloud
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Floyd Miles
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.3 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/part8.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        3D Ethereum
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Jane Cooper
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.12 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                        </div>
+                        <div class="grid grid-cols-4 gap-[32px] mb-9">
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/part9.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        3D Soft Curves
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Esther Howard
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.85 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/part10.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        The mystery of the black square
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Jenny Wilson
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.24 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/part11.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        Pink Cloud
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Floyd Miles
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.3 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card" class=" border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/part12.png" alt="" class="flex mb-4">
+                                        <div class="px-[20px] pb-[24px]">
+                                                <h3 class="text-[20px] mb-[48px] font-medium leading-[28px] text-black">
+                                                        3D Ethereum
+                                                </h3>
+                                                <p
+                                                        class="text-[16px] mb-2 font-normal leading-6 text-[#8E8E93] text-end">
+                                                        Current Bid
+                                                </p>
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-center gap-2 ">
+                                                                <div class="bg-black w-[24px] h-6 rounded-[50%]"></div>
+                                                                <p
+                                                                        class="text-[16px]  font-normal leading-4 text-black">
+                                                                        Jane Cooper
+                                                                </p>
+                                                        </div>
+                                                        <b class="text-[20px] font-medium leading-6">0.12 ETH</b>
+                                                </div>
+                                        </div>
+                                </a>
+                        </div>
+
+                        <a href=""
+                                class="text-center w-[208px] block mx-auto  py-4 px-[64px] border border-gray-200 rounded-[48px] ">
+                                Load More
+                        </a>
+                </div>
+        </section>
+        <section class="creators pb-[90px]">
+                <div class="container">
+                        <div class="flex items-center justify-between mb-9">
+                                <h2 class="text-[28px] font-medium leading-[36px]">Top Creators </h2>
+                                <p class="text-[20px] font-normal leading-[28px] text-[#8E8E93]">Top Creators</p>
+                        </div>
+
+                        <div class="grid grid-cols-4 gap-[32px] mb-9">
+                                <a href="" id="auctions_card"
+                                        class="inline-block border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/image1.png" alt="" class="flex mb-5">
+                                        <div class="px-[20px] pb-[18px]">
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-start gap-4 ">
+                                                                <div class="bg-black w-[56px] h-[56px] rounded-[50%]">
+                                                                </div>
+                                                                <div class="max-w-[196px]">
+                                                                        <div class="mb-[72px]">
+                                                                                <p
+                                                                                        class="text-[18px] pb-[16px] font-normal leading-4 text-black">
+                                                                                        Tung Tran
+                                                                                </p>
+                                                                                <p
+                                                                                        class="text-[16px] font-normal leading-6 text-[#8E8E93]">
+                                                                                        Bad Artist, NFT Enthusiast,
+                                                                                        Metaverse Innovator
+                                                                                        Supporting #bitcoin since 2012.
+                                                                                </p>
+                                                                        </div>
+                                                                        <div class="flex items-center gap-[24px]">
+                                                                                <strong
+                                                                                        class="text-[16px] font-normal leading-6 inline-block">
+                                                                                        3K Followers
+                                                                                </strong>
+                                                                                <button href=""
+                                                                                        class="py-2 px-4 text-white bg-[#007AFF] rounded-[38px] inline-block">
+                                                                                        Follow
+                                                                                </button>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card"
+                                        class="inline-block border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/image2.png" alt="" class="flex mb-5">
+                                        <div class="px-[20px] pb-[18px]">
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-start gap-4 ">
+                                                                <div class="bg-black w-[56px] h-[56px] rounded-[50%]">
+                                                                </div>
+                                                                <div class="max-w-[196px]">
+                                                                        <div class="mb-[72px]">
+                                                                                <p
+                                                                                        class="text-[18px] pb-[16px] font-normal leading-4 text-black">
+                                                                                        Tung Tran
+                                                                                </p>
+                                                                                <p
+                                                                                        class="text-[16px] font-normal leading-6 text-[#8E8E93]">
+                                                                                        Bad Artist, NFT Enthusiast,
+                                                                                        Metaverse Innovator
+                                                                                        Supporting #bitcoin since 2012.
+                                                                                </p>
+                                                                        </div>
+                                                                        <div class="flex items-center gap-[24px]">
+                                                                                <strong
+                                                                                        class="text-[16px] font-normal leading-6 inline-block">
+                                                                                        3K Followers
+                                                                                </strong>
+                                                                                <button href=""
+                                                                                        class="py-2 px-4 text-white bg-[#007AFF] rounded-[38px] inline-block">
+                                                                                        Follow
+                                                                                </button>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card"
+                                        class="inline-block border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/imag4.png" alt="" class="flex mb-5">
+                                        <div class="px-[20px] pb-[18px]">
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-start gap-4 ">
+                                                                <div class="bg-black w-[56px] h-[56px] rounded-[50%]">
+                                                                </div>
+                                                                <div class="max-w-[196px]">
+                                                                        <div class="mb-[72px]">
+                                                                                <p
+                                                                                        class="text-[18px] pb-[16px] font-normal leading-4 text-black">
+                                                                                        Tung Tran
+                                                                                </p>
+                                                                                <p
+                                                                                        class="text-[16px] font-normal leading-6 text-[#8E8E93]">
+                                                                                        Bad Artist, NFT Enthusiast,
+                                                                                        Metaverse Innovator
+                                                                                        Supporting #bitcoin since 2012.
+                                                                                </p>
+                                                                        </div>
+                                                                        <div class="flex items-center gap-[24px]">
+                                                                                <strong
+                                                                                        class="text-[16px] font-normal leading-6 inline-block">
+                                                                                        3K Followers
+                                                                                </strong>
+                                                                                <button href=""
+                                                                                        class="py-2 px-4 text-white bg-[#007AFF] rounded-[38px] inline-block">
+                                                                                        Follow
+                                                                                </button>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card"
+                                        class="inline-block border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/imag4.png" alt="" class="flex mb-5">
+                                        <div class="px-[20px] pb-[18px]">
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-start gap-4 ">
+                                                                <div class="bg-black w-[56px] h-[56px] rounded-[50%]">
+                                                                </div>
+                                                                <div class="max-w-[196px]">
+                                                                        <div class="mb-[72px]">
+                                                                                <p
+                                                                                        class="text-[18px] pb-[16px] font-normal leading-4 text-black">
+                                                                                        Tung Tran
+                                                                                </p>
+                                                                                <p
+                                                                                        class="text-[16px] font-normal leading-6 text-[#8E8E93]">
+                                                                                        Bad Artist, NFT Enthusiast,
+                                                                                        Metaverse Innovator
+                                                                                        Supporting #bitcoin since 2012.
+                                                                                </p>
+                                                                        </div>
+                                                                        <div class="flex items-center gap-[24px]">
+                                                                                <strong
+                                                                                        class="text-[16px] font-normal leading-6 inline-block">
+                                                                                        3K Followers
+                                                                                </strong>
+                                                                                <button href=""
+                                                                                        class="py-2 px-4 text-white bg-[#007AFF] rounded-[38px] inline-block">
+                                                                                        Follow
+                                                                                </button>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </a>
+
+                        </div>
+                        <div class="grid grid-cols-4 gap-[32px] mb-[56px]">
+                                <a href="" id="auctions_card"
+                                        class="inline-block border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/image1.png" alt="" class="flex mb-5">
+                                        <div class="px-[20px] pb-[18px]">
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-start gap-4 ">
+                                                                <div class="bg-black w-[56px] h-[56px] rounded-[50%]">
+                                                                </div>
+                                                                <div class="max-w-[196px]">
+                                                                        <div class="mb-[72px]">
+                                                                                <p
+                                                                                        class="text-[18px] pb-[16px] font-normal leading-4 text-black">
+                                                                                        Tung Tran
+                                                                                </p>
+                                                                                <p
+                                                                                        class="text-[16px] font-normal leading-6 text-[#8E8E93]">
+                                                                                        Bad Artist, NFT Enthusiast,
+                                                                                        Metaverse Innovator
+                                                                                        Supporting #bitcoin since 2012.
+                                                                                </p>
+                                                                        </div>
+                                                                        <div class="flex items-center gap-[24px]">
+                                                                                <strong
+                                                                                        class="text-[16px] font-normal leading-6 inline-block">
+                                                                                        3K Followers
+                                                                                </strong>
+                                                                                <button href=""
+                                                                                        class="py-2 px-4 text-white bg-[#007AFF] rounded-[38px] inline-block">
+                                                                                        Follow
+                                                                                </button>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card"
+                                        class="inline-block border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/image2.png" alt="" class="flex mb-5">
+                                        <div class="px-[20px] pb-[18px]">
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-start gap-4 ">
+                                                                <div class="bg-black w-[56px] h-[56px] rounded-[50%]">
+                                                                </div>
+                                                                <div class="max-w-[196px]">
+                                                                        <div class="mb-[72px]">
+                                                                                <p
+                                                                                        class="text-[18px] pb-[16px] font-normal leading-4 text-black">
+                                                                                        Tung Tran
+                                                                                </p>
+                                                                                <p
+                                                                                        class="text-[16px] font-normal leading-6 text-[#8E8E93]">
+                                                                                        Bad Artist, NFT Enthusiast,
+                                                                                        Metaverse Innovator
+                                                                                        Supporting #bitcoin since 2012.
+                                                                                </p>
+                                                                        </div>
+                                                                        <div class="flex items-center gap-[24px]">
+                                                                                <strong
+                                                                                        class="text-[16px] font-normal leading-6 inline-block">
+                                                                                        3K Followers
+                                                                                </strong>
+                                                                                <button href=""
+                                                                                        class="py-2 px-4 text-white bg-[#007AFF] rounded-[38px] inline-block">
+                                                                                        Follow
+                                                                                </button>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card"
+                                        class="inline-block border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/imag4.png" alt="" class="flex mb-5">
+                                        <div class="px-[20px] pb-[18px]">
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-start gap-4 ">
+                                                                <div class="bg-black w-[56px] h-[56px] rounded-[50%]">
+                                                                </div>
+                                                                <div class="max-w-[196px]">
+                                                                        <div class="mb-[72px]">
+                                                                                <p
+                                                                                        class="text-[18px] pb-[16px] font-normal leading-4 text-black">
+                                                                                        Tung Tran
+                                                                                </p>
+                                                                                <p
+                                                                                        class="text-[16px] font-normal leading-6 text-[#8E8E93]">
+                                                                                        Bad Artist, NFT Enthusiast,
+                                                                                        Metaverse Innovator
+                                                                                        Supporting #bitcoin since 2012.
+                                                                                </p>
+                                                                        </div>
+                                                                        <div class="flex items-center gap-[24px]">
+                                                                                <strong
+                                                                                        class="text-[16px] font-normal leading-6 inline-block">
+                                                                                        3K Followers
+                                                                                </strong>
+                                                                                <button href=""
+                                                                                        class="py-2 px-4 text-white bg-[#007AFF] rounded-[38px] inline-block">
+                                                                                        Follow
+                                                                                </button>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </a>
+                                <a href="" id="auctions_card"
+                                        class="inline-block border border-[#E6E6E6] !rounded-[16px]">
+                                        <img src="./img/imag4.png" alt="" class="flex mb-5">
+                                        <div class="px-[20px] pb-[18px]">
+                                                <div class="flex items-center justify-between">
+                                                        <div class="flex items-start gap-4 ">
+                                                                <div class="bg-black w-[56px] h-[56px] rounded-[50%]">
+                                                                </div>
+                                                                <div class="max-w-[196px]">
+                                                                        <div class="mb-[72px]">
+                                                                                <p
+                                                                                        class="text-[18px] pb-[16px] font-normal leading-4 text-black">
+                                                                                        Tung Tran
+                                                                                </p>
+                                                                                <p
+                                                                                        class="text-[16px] font-normal leading-6 text-[#8E8E93]">
+                                                                                        Bad Artist, NFT Enthusiast,
+                                                                                        Metaverse Innovator
+                                                                                        Supporting #bitcoin since 2012.
+                                                                                </p>
+                                                                        </div>
+                                                                        <div class="flex items-center gap-[24px]">
+                                                                                <strong
+                                                                                        class="text-[16px] font-normal leading-6 inline-block">
+                                                                                        3K Followers
+                                                                                </strong>
+                                                                                <button href=""
+                                                                                        class="py-2 px-4 text-white bg-[#007AFF] rounded-[38px] inline-block">
+                                                                                        Follow
+                                                                                </button>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </a>
+
+                        </div>
+
+                        <a href=""
+                                class="text-center w-[258px] block mx-auto  py-4 px-[64px] border border-gray-200 rounded-[48px] ">
+                                View All Creators
+                        </a>
+                </div>
+        </section>
+        <footer class="footer pt-[40px] bg-black text-white pb-[72px]">
+                <div class="container">
+                        <ul class="footer_list flex items-center gap-[50px] justify-between">
+                                <ul>
+                                        <li>
+                                                <h2 class="mb-[24px] text-[20px] font-medium leading-6">Get the latest Rolling updates</h2>
+                                        </li>
+                                        <li>
+                                                <form action="">
+                                                        <div for="" class="border inline-block border-gray-500 rounded-[72px]">
+                                                                <input type="search" placeholder="Enter your email"
+                                                                        class="py-[10px] pl-[24px]   rounded-l-[72px]">
+                                                                <input type="submit" placeholder="subscribe"
+                                                                        class="py-[10px] px-[10px] bg-blue-500 text-white rounded-r-[72px]">
+                                                        </div>
+                                                </form>
+                                        </li>
+                                </ul>
+                                <ul>
+                                        <li><h2 class="mb-[24px] text-[20px] font-medium leading-6">Rolling</h2></li>
+                                        <li><a href="" class="text-[#8E8E93]">Explore</a></li>
+                                        <li><a href="" class="text-[#8E8E93]">Blog</a></li>
+                                        <li><a href="" class="text-[#8E8E93]">About us</a></li>
+                                        <li><a href="" class="text-[#8E8E93]">Become a partner</a></li>
+                                </ul>
+                                <ul>
+                                        <li><h2 class="mb-[24px] text-[20px] font-medium leading-6">Community</h2></li>
+                                        <li><a href="" class="text-[#8E8E93]">Community Guidelines</a></li>
+                                        <li><a href="" class="text-[#8E8E93]">Roll Token</a></li>
+                                        <li><a href="" class="text-[#8E8E93]">Discussion</a></li>
+                                </ul>
+                        </ul>
+                </div>
+        </footer>
+</body>
+
+</html>
